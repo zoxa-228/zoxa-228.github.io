@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoha-228 | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <nav>
+      <h1>Zoha-228</h1>
+      <ul class="nav-links">
+        <li><a href="#home" data-i18n="nav.home">Главная</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Опыт</a></li>
+        <li><a href="#certs" data-i18n="nav.certs">Сертификаты</a></li>
+        <li><a href="#portfolio" data-i18n="nav.portfolio">Проекты</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
+      </ul>
+
+      <!-- Селектор языка -->
+      <select id="languageSwitcher">
+        <option value="ru">🇷🇺 RU</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="kz">🇰🇿 KZ</option>
+      </select>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section">
+    <h2 data-i18n="home.eyebrow">Привет!</h2>
+    <h1 data-i18n="home.title">Я Zoha-228</h1>
+    <p data-i18n="home.subtitle">Web developer & UI designer</p>
+    <div class="buttons">
+      <a href="#portfolio" class="btn" data-i18n="home.view">Посмотреть проекты</a>
+      <a href="#contact" class="btn outline" data-i18n="home.contact">Связаться</a>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2 data-i18n="skills.title">Навыки</h2>
+    <ul class="skills-list">
+      <li>HTML / CSS / JavaScript</li>
+      <li>Python / SQLite</li>
+      <li>Node.js / Express</li>
+      <li>Figma / UI Design</li>
+      <li>Git / GitHub</li>
+    </ul>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <h2 data-i18n="experience.title">Опыт</h2>
+    <p>Обучаюсь в РВТК по направлению «Программное обеспечение». Разрабатываю сайты и интерфейсы с акцентом на современный минимализм и функциональность.</p>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section id="certs" class="section certificates">
+    <h2 data-i18n="certs.title">Сертификаты</h2>
+    <div class="certs-grid">
+      <div class="cert">
+        <img src="images/course_440_page-0001 (1).jpg" alt="Создание сайтов с нуля" />
+      </div>
+      <div class="cert">
+        <img src="images/course_444_page-0001 (1).jpg" alt="Андроид-разработка" />
+        
+      </div>
+      <div class="cert">
+        <img src="images/course_520_page-0001.jpg" alt="Java Start" />
+        
+      </div>
+      <div class="cert">
+        <img src="images/course_54_page-0001.jpg" alt="Копирайтинг" />
+        
+      </div>
+    </div>
+  </section>
+
+ <!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="section">
+  <h2 data-i18n="portfolio.title">Проекты</h2>
+  <p data-i18n="portfolio.subtitle">Мои практические работы и pet-проекты</p>
+
+  <div class="projects">
+    <!-- === Проект 1 === -->
+    <div class="project">
+      <h3 data-i18n="portfolio.p1.title">Игра «На память»</h3>
+      <p data-i18n="portfolio.p1.text">
+        JavaScript-игра, где нужно находить пары карточек. 
+        Логика проверяет совпадения и считает количество ходов.
+      </p>
+      <a href="https://github.com/zoxa-228/memory-card" target="_blank" class="btn">
+        🔗 GitHub
+      </a>
+    </div>
+
+    <!-- === Проект 2 === -->
+    <div class="project">
+      <h3 data-i18n="portfolio.p2.title">JS Clicker Game</h3>
+      <p data-i18n="portfolio.p2.text">
+        Простая, но затягивающая кликер-игра на JavaScript.
+      </p>
+      <a href="https://github.com/zoxa-228/clicer-game/blob/main/src/components/Game.js" target="_blank" class="btn">
+        🔗 GitHub
+      </a>
+    </div>
+
+    <!-- === Проект 3 === -->
+    <div class="project">
+      <h3 data-i18n="portfolio.p3.title">База данных кинотеатра</h3>
+      <p data-i18n="portfolio.p3.text">
+        Python-проект с SQLite для управления фильмами и сеансами.
+      </p>
+      <a href="https://github.com/zoxa-228/PM-4-CA-db/blob/main/12online.py" target="_blank" class="btn">
+        🔗 GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <h2 data-i18n="contact.title">Контакты</h2>
+    <p data-i18n="contact.lead">Свяжись со мной в мессенджерах:</p>
+    <div class="contacts">
+      <a href="https://web.telegram.org/k/#1537174669" target="_blank">Telegram</a>
+      <a href="https://www.instagram.com/zakharlemin?igsh=ODFwZDBtZWV6ZHFq" target="_blank">Instagramm</a>
+      <a href="https://github.com/zoxa-228" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p data-i18n="footer.quote">Волк не царь зверей — он просто не нуждается в короне.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

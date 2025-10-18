@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "experience": "Experience",
+    "certs": "Certificates",
+    "portfolio": "Projects",
+    "contact": "Contacts"
+  },
+  "home": {
+    "eyebrow": "Hey there!",
+    "title": "I'm Zoha-228",
+    "subtitle": "Web developer & UI designer",
+    "view": "View Projects",
+    "contact": "Contact Me"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "certs": {
+    "title": "Certificates"
+  },
+  "portfolio": {
+    "title": "Projects",
+    "subtitle": "My practical works and pet projects",
+    "p1": {
+      "title": "Memory Game",
+      "text": "A JavaScript memory game where you match pairs of cards. Keeps score and ends when all pairs are found."
+    },
+    "p2": {
+      "title": "JS Clicker Game",
+      "text": "A fun, addictive JavaScript clicker game with upgrades and score tracking."
+    },
+    "p3": {
+      "title": "Cinema Database",
+      "text": "Python & SQLite project for managing movies, halls, and schedules via a console interface."
+    }
+  },
+  "contact": {
+    "title": "Contacts",
+    "lead": "Reach out to me through messengers:"
+  },
+  "footer": {
+    "quote": "The wolf isn’t the king of beasts — he just doesn’t perform in the circus."
+  }
+}
